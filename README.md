@@ -91,7 +91,7 @@ plt.legend()
 plt.show()
 ```
 #### Results
-![](equity_SPlot.png)
+![](Vizes/equity_SPlot.png)
 
 #### Insights
 1. **Higher Risk, Higher Return**: Many funds with higher standard deviation (risk) tend to have higher CAGR (return), though there are exceptions.
@@ -118,7 +118,7 @@ fig.tight_layout()
 ```
 **Result**:
 
-![](Equity_dist.png)
+![](Vizes/Equity_dist.png)
 #### Insights:
 1. **CAGR Distribution:** Nearly normal but slightly right-skewed, with most equity schemes having returns between 8-15%.
 Additionally, some high-performing schemes achieve even higher returns (20%+), offering significant growth opportunities for investors willing to take calculated risks.
@@ -153,7 +153,7 @@ plt.show()
 * Second Plot shows the funds which have highest returns with Low Volatility.
 
 * Investors can decide best funds on basis of their investment goals and portfolios.
-![](Equity_Barplot.png)
+![](Vizes/Equity_Barplot.png)
 #### Insights:
 1. **Top 5 High CAGR Funds:** These funds deliver the highest returns, exceeding 30% CAGR, but come with relatively higher volatility (Std Dev ~1.0 - 1.15).
 2. **Top 5 Stable Funds:** These funds maintain strong returns (~20-30% CAGR) while having lower volatility (Std Dev < 1.0), making them ideal for risk-averse investors.
@@ -173,7 +173,7 @@ plt.legend()
 plt.show()
 ```
 #### Result
-![](hybrid_scatter.png)
+![](Vizes/hybrid_scatter.png)
 #### Insights
 * **Risk-Return Trend**: Higher risk generally leads to higher returns, but not always.
 * ##### Quadrant Analysis:
@@ -207,7 +207,7 @@ fig.tight_layout()
 ```
 **Results**:
 
-![](hybrid_dist.png)
+![](Vizes/hybrid_dist.png)
 #### Insights
 * **CAGR Distribution**: Most schemes fall within 6-12% CAGR, aligning closely with the average (9.27%).
 A few high-performing schemes exceed 15% CAGR.
@@ -246,7 +246,7 @@ plt.show()
 * Second Plot shows the top funds with best returns irrespective of the risk involved.
 * Investors can decide best funds on basis of their investment goals and portfolios.
 
-![](hybrid_bar.png)
+![](Vizes/hybrid_bar.png)
 
 #### Insights
 * **Stable Hybrid Funds**: Offer lower risk (Std Dev ~0.29–0.36) with moderate returns (~8–11% CAGR).
@@ -269,7 +269,7 @@ plt.legend(title="Sortino Ratio", loc="upper left", fontsize=6)
 plt.show()
 ```
 **Result:**
-![](debt_scatter.png)
+![](Vizes/debt_scatter.png)
 #### Insights:
 * **Low Volatility:** Debt funds exhibit a standard deviation mostly between 0.05 and 0.20, significantly lower than equity and hybrid funds, confirming their low-risk nature.
 
@@ -298,7 +298,7 @@ ax[1].set_ylabel('Number of Schemes',fontsize=10)
 fig.tight_layout()
 ```
 **Result:**
-![](debt_dist.png)
+![](Vizes/debt_dist.png)
 
 #### Insights:
 * **CAGR Distribution (Left Plot):**
@@ -337,7 +337,7 @@ fig.tight_layout()
 plt.show()
 ```
 **Result**:
-![](debt_barplot.png)
+![](Vizes/debt_barplot.png)
 
 #### Insights:
 * **Top 5 Stable Debt Funds (Low Volatility, Above-Average Returns) (Top Plot):**
